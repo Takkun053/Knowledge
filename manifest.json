@@ -1,0 +1,19 @@
+{
+    "name": "Knowledge",
+    "description": "新たな知識に出会える拡張機能",
+    "version": "0.0.1",
+    "icons": {
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+    },
+
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "js/background.js"
+    },
+    "permissions": [
+        "storage",
+        "tabs"
+    ]    
+}
