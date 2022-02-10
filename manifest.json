@@ -9,11 +9,17 @@
     },
 
     "manifest_version": 3,
+    "action": {
+        "default_popup": "pages/popup.html"
+    },
     "background": {
-        "service_worker": "js/background.js"
+        "service_worker": "js/background.js",
+        "type": "module"
     },
     "permissions": [
         "storage",
         "tabs"
-    ]    
+    ],
+    "options_page" : "pages/option.html",
+    "homepage_url" : "https://github.com/Takkun053/Knowledge"
 }

@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital@1&display=swap");
+
+body {
+    height: 600px;
+    width: 400px;
+    margin: 0;
+    text-align: center;
+    font-family: sans-serif;
+    user-select: none;
+}
+
+header {
+    height: 29px;
+    padding: 10px;
+    background-color: #e6e6e6;
+    border-bottom: 1px solid #a7d7f9;
+    font-size: 25px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.main {
+    height: 450px;
+    padding: 50px;
+}
+
+.subtitle {
+    height: 30px;
+    padding: 85px 0;
+    background-image: url("../icons/icon.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-shadow: 2px 2px 5px #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn {
+    height: 18px;
+    padding: 5px 10px;
+    margin: 10px 0;
+    display: block;
+    border: 1px solid #3366cc;
+    border-radius: 2px;
+    color: #3366cc;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 150ms;
+}
+
+.btn:hover {
+    background-color: #3366cc;
+    color: #ffffff;
+}
+
+.btn.article {
+    padding: 15px 10px;
+    margin: 50px 0 30px;
+    font-weight: bold;
+}
