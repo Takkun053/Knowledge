@@ -8,10 +8,7 @@ const test = () => {
     })
 
     chrome.windows.create({
-        height: 600,
-        width: 400,
-        top: 0,
-        left: 0,
+        state: "maximized",
         type: "popup",
         url: "../pages/article.html"
     })
